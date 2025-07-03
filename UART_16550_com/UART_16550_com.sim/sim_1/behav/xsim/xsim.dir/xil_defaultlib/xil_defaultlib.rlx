@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/ASUS/OneDrive/Documents/UART_16550_com/UART_16550_com.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/ASUS/OneDrive/Documents/UART_16550_com/UART_16550_com.srcs/sim_1/new/all_mod_tb.sv,1751516736,systemVerilog,,,,all_mod_tb,,uvm,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/ASUS/OneDrive/Documents/UART_16550_com/UART_16550_com.srcs/sources_1/new/all_mod.sv,1751519479,systemVerilog,C:/Users/ASUS/OneDrive/Documents/UART_16550_com/UART_16550_com.srcs/sim_1/new/all_mod_tb.sv,C:/Users/ASUS/OneDrive/Documents/UART_16550_com/UART_16550_com.srcs/sim_1/new/all_mod_tb.sv,,$unit_all_mod_sv_3401505136;all_mod;fifo_top;regs_uart;uart_rx_top;uart_tx_top,,uvm,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,

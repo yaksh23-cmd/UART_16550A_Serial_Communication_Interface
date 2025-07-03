@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="all_mod_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_all_mod_sv_3401505136 " />
+            <top_module name="all_mod_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="25.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="449.085001 us"></ZoomEndTime>
+      <Cursor1Time time="424.085000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="group480" type="group">
+      <obj_property name="label">UART_REGS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/wr_i" type="logic">
+         <obj_property name="ElementShortName">wr_i</obj_property>
+         <obj_property name="ObjectShortName">wr_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rd_i" type="logic">
+         <obj_property name="ElementShortName">rd_i</obj_property>
+         <obj_property name="ObjectShortName">rd_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_fifo_empty_i" type="logic">
+         <obj_property name="ElementShortName">rx_fifo_empty_i</obj_property>
+         <obj_property name="ObjectShortName">rx_fifo_empty_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_oe" type="logic">
+         <obj_property name="ElementShortName">rx_oe</obj_property>
+         <obj_property name="ObjectShortName">rx_oe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_pe" type="logic">
+         <obj_property name="ElementShortName">rx_pe</obj_property>
+         <obj_property name="ObjectShortName">rx_pe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_fe" type="logic">
+         <obj_property name="ElementShortName">rx_fe</obj_property>
+         <obj_property name="ObjectShortName">rx_fe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_bi" type="logic">
+         <obj_property name="ElementShortName">rx_bi</obj_property>
+         <obj_property name="ObjectShortName">rx_bi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/addr_i" type="array">
+         <obj_property name="ElementShortName">addr_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/din_i" type="array">
+         <obj_property name="ElementShortName">din_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/tx_push_o" type="logic">
+         <obj_property name="ElementShortName">tx_push_o</obj_property>
+         <obj_property name="ObjectShortName">tx_push_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_pop_o" type="logic">
+         <obj_property name="ElementShortName">rx_pop_o</obj_property>
+         <obj_property name="ObjectShortName">rx_pop_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/baud_out" type="logic">
+         <obj_property name="ElementShortName">baud_out</obj_property>
+         <obj_property name="ObjectShortName">baud_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/tx_rst" type="logic">
+         <obj_property name="ElementShortName">tx_rst</obj_property>
+         <obj_property name="ObjectShortName">tx_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_rst" type="logic">
+         <obj_property name="ElementShortName">rx_rst</obj_property>
+         <obj_property name="ObjectShortName">rx_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_fifo_threshold" type="array">
+         <obj_property name="ElementShortName">rx_fifo_threshold[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_fifo_threshold[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/dout_o" type="array">
+         <obj_property name="ElementShortName">dout_o[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_o[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/csr_o" type="array">
+         <obj_property name="ElementShortName">csr_o</obj_property>
+         <obj_property name="ObjectShortName">csr_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_fifo_in" type="array">
+         <obj_property name="ElementShortName">rx_fifo_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_fifo_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/csr" type="array">
+         <obj_property name="ElementShortName">csr</obj_property>
+         <obj_property name="ObjectShortName">csr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/tx_fifo_wr" type="logic">
+         <obj_property name="ElementShortName">tx_fifo_wr</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_fifo_rd" type="logic">
+         <obj_property name="ElementShortName">rx_fifo_rd</obj_property>
+         <obj_property name="ObjectShortName">rx_fifo_rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/dl" type="array">
+         <obj_property name="ElementShortName">dl</obj_property>
+         <obj_property name="ObjectShortName">dl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/update_baud" type="logic">
+         <obj_property name="ElementShortName">update_baud</obj_property>
+         <obj_property name="ObjectShortName">update_baud</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/baud_cnt" type="array">
+         <obj_property name="ElementShortName">baud_cnt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">baud_cnt[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/baud_pulse" type="logic">
+         <obj_property name="ElementShortName">baud_pulse</obj_property>
+         <obj_property name="ObjectShortName">baud_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/rx_fifo_th_count" type="array">
+         <obj_property name="ElementShortName">rx_fifo_th_count[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_fifo_th_count[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/lcr" type="array">
+         <obj_property name="ElementShortName">lcr</obj_property>
+         <obj_property name="ObjectShortName">lcr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/lcr_temp" type="array">
+         <obj_property name="ElementShortName">lcr_temp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lcr_temp[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/read_lcr" type="logic">
+         <obj_property name="ElementShortName">read_lcr</obj_property>
+         <obj_property name="ObjectShortName">read_lcr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/LSR_temp" type="array">
+         <obj_property name="ElementShortName">LSR_temp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LSR_temp[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/lsr_temp" type="array">
+         <obj_property name="ElementShortName">lsr_temp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lsr_temp[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/read_lsr" type="logic">
+         <obj_property name="ElementShortName">read_lsr</obj_property>
+         <obj_property name="ObjectShortName">read_lsr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/scr_temp" type="array">
+         <obj_property name="ElementShortName">scr_temp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">scr_temp[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_regs_inst/read_scr" type="logic">
+         <obj_property name="ElementShortName">read_scr</obj_property>
+         <obj_property name="ObjectShortName">read_scr</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group502" type="group">
+      <obj_property name="label">UART_TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/baud_pulse" type="logic">
+         <obj_property name="ElementShortName">baud_pulse</obj_property>
+         <obj_property name="ObjectShortName">baud_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/pen" type="logic">
+         <obj_property name="ElementShortName">pen</obj_property>
+         <obj_property name="ObjectShortName">pen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/thre" type="logic">
+         <obj_property name="ElementShortName">thre</obj_property>
+         <obj_property name="ObjectShortName">thre</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/stb" type="logic">
+         <obj_property name="ElementShortName">stb</obj_property>
+         <obj_property name="ObjectShortName">stb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/sticky_parity" type="logic">
+         <obj_property name="ElementShortName">sticky_parity</obj_property>
+         <obj_property name="ObjectShortName">sticky_parity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/eps" type="logic">
+         <obj_property name="ElementShortName">eps</obj_property>
+         <obj_property name="ObjectShortName">eps</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/set_break" type="logic">
+         <obj_property name="ElementShortName">set_break</obj_property>
+         <obj_property name="ObjectShortName">set_break</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/wls" type="array">
+         <obj_property name="ElementShortName">wls[1:0]</obj_property>
+         <obj_property name="ObjectShortName">wls[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/pop" type="logic">
+         <obj_property name="ElementShortName">pop</obj_property>
+         <obj_property name="ObjectShortName">pop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/sreg_empty" type="logic">
+         <obj_property name="ElementShortName">sreg_empty</obj_property>
+         <obj_property name="ObjectShortName">sreg_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/tx" type="logic">
+         <obj_property name="ElementShortName">tx</obj_property>
+         <obj_property name="ObjectShortName">tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/shft_reg" type="array">
+         <obj_property name="ElementShortName">shft_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">shft_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/tx_data" type="logic">
+         <obj_property name="ElementShortName">tx_data</obj_property>
+         <obj_property name="ObjectShortName">tx_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/d_parity" type="logic">
+         <obj_property name="ElementShortName">d_parity</obj_property>
+         <obj_property name="ObjectShortName">d_parity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/bitcnt" type="array">
+         <obj_property name="ElementShortName">bitcnt[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bitcnt[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/count" type="array">
+         <obj_property name="ElementShortName">count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_tx_inst/parity_out" type="logic">
+         <obj_property name="ElementShortName">parity_out</obj_property>
+         <obj_property name="ObjectShortName">parity_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group525" type="group">
+      <obj_property name="label">UART_TX_FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/push_in" type="logic">
+         <obj_property name="ElementShortName">push_in</obj_property>
+         <obj_property name="ObjectShortName">push_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/pop_in" type="logic">
+         <obj_property name="ElementShortName">pop_in</obj_property>
+         <obj_property name="ObjectShortName">pop_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/overrun" type="logic">
+         <obj_property name="ElementShortName">overrun</obj_property>
+         <obj_property name="ObjectShortName">overrun</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/underrun" type="logic">
+         <obj_property name="ElementShortName">underrun</obj_property>
+         <obj_property name="ObjectShortName">underrun</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/threshold" type="array">
+         <obj_property name="ElementShortName">threshold[3:0]</obj_property>
+         <obj_property name="ObjectShortName">threshold[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/thre_trigger" type="logic">
+         <obj_property name="ElementShortName">thre_trigger</obj_property>
+         <obj_property name="ObjectShortName">thre_trigger</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:15][7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/waddr" type="array">
+         <obj_property name="ElementShortName">waddr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/push" type="logic">
+         <obj_property name="ElementShortName">push</obj_property>
+         <obj_property name="ObjectShortName">push</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/pop" type="logic">
+         <obj_property name="ElementShortName">pop</obj_property>
+         <obj_property name="ObjectShortName">pop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/empty_t" type="logic">
+         <obj_property name="ElementShortName">empty_t</obj_property>
+         <obj_property name="ObjectShortName">empty_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/full_t" type="logic">
+         <obj_property name="ElementShortName">full_t</obj_property>
+         <obj_property name="ObjectShortName">full_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/underrun_t" type="logic">
+         <obj_property name="ElementShortName">underrun_t</obj_property>
+         <obj_property name="ObjectShortName">underrun_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/overrun_t" type="logic">
+         <obj_property name="ElementShortName">overrun_t</obj_property>
+         <obj_property name="ObjectShortName">overrun_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/tx_fifo_inst/thre_t" type="logic">
+         <obj_property name="ElementShortName">thre_t</obj_property>
+         <obj_property name="ObjectShortName">thre_t</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group545" type="group">
+      <obj_property name="label">UART_RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/baud_pulse" type="logic">
+         <obj_property name="ElementShortName">baud_pulse</obj_property>
+         <obj_property name="ObjectShortName">baud_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/sticky_parity" type="logic">
+         <obj_property name="ElementShortName">sticky_parity</obj_property>
+         <obj_property name="ObjectShortName">sticky_parity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/eps" type="logic">
+         <obj_property name="ElementShortName">eps</obj_property>
+         <obj_property name="ObjectShortName">eps</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/pen" type="logic">
+         <obj_property name="ElementShortName">pen</obj_property>
+         <obj_property name="ObjectShortName">pen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/wls" type="array">
+         <obj_property name="ElementShortName">wls[1:0]</obj_property>
+         <obj_property name="ObjectShortName">wls[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/push" type="logic">
+         <obj_property name="ElementShortName">push</obj_property>
+         <obj_property name="ObjectShortName">push</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/pe" type="logic">
+         <obj_property name="ElementShortName">pe</obj_property>
+         <obj_property name="ObjectShortName">pe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/fe" type="logic">
+         <obj_property name="ElementShortName">fe</obj_property>
+         <obj_property name="ObjectShortName">fe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/bi" type="logic">
+         <obj_property name="ElementShortName">bi</obj_property>
+         <obj_property name="ObjectShortName">bi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/rx_reg" type="logic">
+         <obj_property name="ElementShortName">rx_reg</obj_property>
+         <obj_property name="ObjectShortName">rx_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/fall_edge" type="logic">
+         <obj_property name="ElementShortName">fall_edge</obj_property>
+         <obj_property name="ObjectShortName">fall_edge</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/bitcnt" type="array">
+         <obj_property name="ElementShortName">bitcnt[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bitcnt[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/count" type="array">
+         <obj_property name="ElementShortName">count[3:0]</obj_property>
+         <obj_property name="ObjectShortName">count[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/uart_rx_inst/pe_reg" type="logic">
+         <obj_property name="ElementShortName">pe_reg</obj_property>
+         <obj_property name="ObjectShortName">pe_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group568" type="group">
+      <obj_property name="label">UART_RX_FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/push_in" type="logic">
+         <obj_property name="ElementShortName">push_in</obj_property>
+         <obj_property name="ObjectShortName">push_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/pop_in" type="logic">
+         <obj_property name="ElementShortName">pop_in</obj_property>
+         <obj_property name="ObjectShortName">pop_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/dout" type="array">
+         <obj_property name="ElementShortName">dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/overrun" type="logic">
+         <obj_property name="ElementShortName">overrun</obj_property>
+         <obj_property name="ObjectShortName">overrun</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/underrun" type="logic">
+         <obj_property name="ElementShortName">underrun</obj_property>
+         <obj_property name="ObjectShortName">underrun</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/threshold" type="array">
+         <obj_property name="ElementShortName">threshold[3:0]</obj_property>
+         <obj_property name="ObjectShortName">threshold[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/thre_trigger" type="logic">
+         <obj_property name="ElementShortName">thre_trigger</obj_property>
+         <obj_property name="ObjectShortName">thre_trigger</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:15][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/waddr" type="array">
+         <obj_property name="ElementShortName">waddr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/push" type="logic">
+         <obj_property name="ElementShortName">push</obj_property>
+         <obj_property name="ObjectShortName">push</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/pop" type="logic">
+         <obj_property name="ElementShortName">pop</obj_property>
+         <obj_property name="ObjectShortName">pop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/empty_t" type="logic">
+         <obj_property name="ElementShortName">empty_t</obj_property>
+         <obj_property name="ObjectShortName">empty_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/full_t" type="logic">
+         <obj_property name="ElementShortName">full_t</obj_property>
+         <obj_property name="ObjectShortName">full_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/underrun_t" type="logic">
+         <obj_property name="ElementShortName">underrun_t</obj_property>
+         <obj_property name="ObjectShortName">underrun_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/overrun_t" type="logic">
+         <obj_property name="ElementShortName">overrun_t</obj_property>
+         <obj_property name="ObjectShortName">overrun_t</obj_property>
+      </wvobject>
+      <wvobject fp_name="/all_mod_tb/dut/rx_fifo_inst/thre_t" type="logic">
+         <obj_property name="ElementShortName">thre_t</obj_property>
+         <obj_property name="ObjectShortName">thre_t</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
